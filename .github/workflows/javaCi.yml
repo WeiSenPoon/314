@@ -23,7 +23,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Maven
-      run: mvn -B package --file Backend Java Code/demo/pom.xml
+      run: mvn -B package --file 314/Backend Java Code/demo/pom.xml
 
     - name: Run tests
-      run: mvn -B test --file Backend Java Code/demo/pom.xml
+      run: mvn -B test --file 314/Backend Java Code/demo/pom.xml
