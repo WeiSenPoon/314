@@ -17,6 +17,12 @@ import java.io.IOException;
 public class LoginBoundary extends HttpServlet {
     private LoginController loginController = new LoginController();
 
+    // Test: Constructor to inject LoginController dependency
+    public LoginBoundary(LoginController loginController) {
+        this.loginController = loginController;
+    }
+
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
