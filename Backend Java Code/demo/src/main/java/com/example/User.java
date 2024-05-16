@@ -59,7 +59,7 @@ public class User {
         return this.role;
     }
 
-    // Test
+    // For Testing
     public void setRole(String role) {
         this.role = role;
     }

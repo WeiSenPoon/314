@@ -8,15 +8,3 @@ public class LoginController {
     }
 }
 
-/*public class LoginController {
-    
-    public User login(String username, String password) {
-        User user = createUser();
-        User loggedInUser = user.login(username, password);
-        return loggedInUser;
-    }
-
-    protected User createUser() {
-        return new User();
-    }
-}*/

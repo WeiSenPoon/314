@@ -17,7 +17,7 @@ import java.io.IOException;
 public class LoginBoundary extends HttpServlet {
     private LoginController loginController = new LoginController();
 
-    // Test: Constructor to inject LoginController dependency
+    // For Testing: Constructor to inject LoginController dependency
     public LoginBoundary(LoginController loginController) {
         this.loginController = loginController;
     }
