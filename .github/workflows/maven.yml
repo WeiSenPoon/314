@@ -28,6 +28,7 @@ jobs:
       #working-directory: ./Backend\ Java\ Code/demo
       run: mvn -B -f 'Backend Java Code/demo/pom.xml' clean install
 
-    #- name: Run tests with Maven
+    - name: Run tests with Maven
       #run: mvn test
       #working-directory: ./Backend\ Java\ Code/demo
+      run: mvn -B -f 'Backend Java Code/demo/pom.xml' test
